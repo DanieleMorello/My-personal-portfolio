@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: #fff
+  color: #000;
+}
+
+.menu,
+a {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #1aafd0;
+}
+
+.logo {
+  margin-right: auto;
+  color: #fff;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.menu a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+margin-right: 31rem;
+}
+
+img {
+  width: 400px;
+  margin-left: 30rem;
+}
+
+h2 {margin-left: 31.8rem;
+}
+
+p {
+display: inline-block;
+}
+
+figcaption {
+  font-weight: 200;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #1aafd0;
+}
+
+.footer--left {
+justify-content: flex-start;
+}
+
+.footer--left p {
+  color: #fff;
+}
+
+.footer--right {
+  margin-left: auto;
+}
+
+ .social {
+  list-style: none;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.social li a {
+    padding: 0 20px;
+}
+.social li a:hover {
+    color: purple;
+    text-decoration: underline;
+}

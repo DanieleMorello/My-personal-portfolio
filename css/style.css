@@ -1,0 +1,146 @@
+/* Css principale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+  color: #fff;
+}
+
+.menu,
+a {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #1aafd0;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.menu a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 4rem;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #1aafd0;
+}
+
+.footer--left {
+justify-content: flex-start;
+}
+
+.footer--right {
+  margin-left: auto;
+}
+
+ .social {
+  list-style: none;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.social li a {
+  padding: 0 20px;
+}
+.social li a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+/* Css Chi sono io */
+.section--about {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+.foto {
+  margin-top: 3rem;
+  height: 200px;
+  width:auto;
+  margin: auto;
+  padding: 1rem;
+}
+
+.text {
+  display: inline;
+  font-size: 50px;
+  text-align: center;
+}
+
+.text-p {
+  color: #000;
+  font-size: 1.4rem;
+}
+
+/* CSS Formazione */
+
+.footer--left {
+  color: #fff;
+}
+
+/* Css Esperiene */
+.section--experience {
+  height:50%;
+  color: black;
+}
+
+.little-logo {
+  height: 200px;
+  margin-left: 3rem;
+}
+
+h2 {
+    margin-left: 3rem;
+}
